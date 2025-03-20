@@ -1,0 +1,11 @@
+title: "Furniture World"
+description: "A curated blog about timeless furniture styles."
+url: "https://mrsuntanlotionbottle.github.io/funitureworld"
+baseurl: "/funitureworld"  # Remove this if using a user site
+author:
+  name: "Tom Gillam"
+  email: "tom.gillam@yahoo.com"
+  github: "mrsuntanlotionbottle"
+
+paginate: 5  # Number of posts per page
+
