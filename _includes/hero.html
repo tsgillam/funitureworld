@@ -1,0 +1,22 @@
+---
+---
+{% comment %}
+This logic renders a hero image:
+- If on the homepage, it shows a custom background with headline + subhead
+- If on another page with `hero_image` in front matter, it shows a page-specific hero
+{% endcomment %}
+
+{% if page.layout == "home" %}
+<header class="page-hero" style="background-image: url('{{ page.hero_image | relative_url }}');">
+    <div class="hero-overlay">
+      <h1>Furniture World</h1>
+      <p>Vintage finds, modern soul.</p>
+    </div>
+  </header>
+{% elsif page.hero_image %}
+  <header class="page-hero" style="background-image: url('{{ page.hero_image | relative_url }}');">
+    <div class="hero-overlay">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </header>
+{% endif %}

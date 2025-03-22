@@ -7,6 +7,8 @@ author:
   email: "tom.gillam@yahoo.com"
   github: "mrsuntanlotionbottle"
 remote_theme: "mmistakes/so-simple-theme"
+hero_image: /assets/images/home-hero.png
+logo: /assets/images/logo.png
 
 paginate: 5  # Number of posts per page
 
