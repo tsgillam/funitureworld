@@ -6,9 +6,22 @@ author:
   name: "Tom Gillam"
   email: "tom.gillam@yahoo.com"
   github: "mrsuntanlotionbottle"
+  links:
+    - title: GitHub
+      url: https://github.com/mrsuntanlotionbottle
+      icon: fab fa-github-square
 remote_theme: "mmistakes/so-simple-theme"
 hero_image: /assets/images/home-hero.png
 logo: /assets/images/logo.png
+logo_link: https://birdsongbrewing.com/
+
+footer_links:
+  - title: GitHub
+    url: https://github.com/mrsuntanlotionbottle
+    icon: fab fa-github-square
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/tomgillam/
+    icon: fab fa-linkedin-in
 
 paginate: 5  # Number of posts per page
 

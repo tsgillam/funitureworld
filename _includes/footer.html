@@ -11,6 +11,7 @@
         {%- endif -%}
         <a class="social-icon" href="{{ url }}"><i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
       {%- endfor -%}
+      {% include kaggle-icon.html %}
     </div>
   {%- endif -%}
 

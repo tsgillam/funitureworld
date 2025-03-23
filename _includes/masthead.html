@@ -1,6 +1,10 @@
 <header class="masthead">
   <div class="wrap">
-    {% if site.logo %}
+    {% if site.logo and (page.url == "/" or page.path == "index.md" or page.path == "index.html")%}
+      <a href="{{ site.logo_link }}" target="_blank" class="site-logo" rel="home" title="{{ site.title }}">
+        <img src="{{ site.logo | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
+      </a>
+    {% elsif site.logo %}
       <a href="{{ '/' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}">
         <img src="{{ site.logo | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">
       </a>

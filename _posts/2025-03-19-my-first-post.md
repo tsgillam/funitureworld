@@ -2,9 +2,13 @@
 layout: post
 title: "My First Blog Post"
 date: 2025-03-19
-author: "Mrs. Suntan Lotion Bottle"
-categories: [furniture, design]
-tags: [mid-century, vintage]
-excerpt: "This is my very first post about furniture trends!"
+author: "Tom Gillam"
+categories: [blog, chatgpt]
+tags: [google, chatgpt]
+excerpt: "After a lot of work I have a blog post."
+image: 
+  path: assets/images/home-hero.png
+  caption: "Learning to use Chat GPT"
 ---
 
+Is here where I put my blog post?
