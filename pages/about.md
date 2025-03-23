@@ -21,7 +21,7 @@ Right now, I’m working on three projects:
     - SEO
     - Google Analytics
 
-When I don’t know what something is, I **Google**. When I don’t know how to do something, I **ChatGPT**. I think of both as poeple with personalities who know and don't know things.
+When I don’t know what something is, I **Google**. When I don’t know how to do something, I **ChatGPT**. I think of both as people with personalities who know and don't know things.
 
 ---
 
