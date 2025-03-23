@@ -14,6 +14,7 @@ remote_theme: "mmistakes/so-simple-theme"
 hero_image: /assets/images/home-hero.png
 logo: /assets/images/logo.png
 logo_link: https://birdsongbrewing.com/
+google_analytics: G-XHSX9J3SZ7
 
 footer_links:
   - title: GitHub
