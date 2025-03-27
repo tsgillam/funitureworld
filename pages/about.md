@@ -10,7 +10,7 @@ Hi, I’m a husband to one talented designer, father to two fun kids, and born i
 When I don’t know what something is, I **Google**. When I don’t know how to do something, I **ChatGPT**. I think of both tools as people with personalities who know and don't know things.
 
 ### About this blog
-My goal with this blog is to learn and become a better writer. To readers it should provide one perspective from working on personal projects. I focus on workflows and insights rather than technical details because this is about becoming the productive worker of tomorrow. Technical details can come from **[Google](https://google.com?q=what%20are%20the%20technical%20details)** or **[ChatGPT](https%3A%2F%2Fchatgpt.com%2F%3Fprompt%3Dsummarize%20chatgpt%20in%20two%20paragraphs)**.
+My goal with this blog is to learn and become a better writer. To readers it should provide one perspective from working on personal projects. I focus on workflows and insights rather than technical details because this is about becoming the productive worker of tomorrow. Technical details can come from **[Google](https://google.com?q=what%20are%20the%20technical%20details)** or **[ChatGPT](https://chatgpt.com/?prompt=summarize%20chatgpt%20in%20two%20paragraphs)**.
 There are no deadlines or schedules for posts so I work on what comes naturally.Right now, I’m working on three projects:
 
 - ✍️ A blog about furniture, productivity, and navigating modern tools with a retro soul  
