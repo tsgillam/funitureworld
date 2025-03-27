@@ -11,7 +11,7 @@ When I don’t know what something is, I **Google**. When I don’t know how to 
 
 ### About this blog
 My goal with this blog is to learn and become a better writer. To readers it should provide one perspective from working on personal projects. I focus on workflows and insights rather than technical details because this is about becoming the productive worker of tomorrow. Technical details can come from **[Google](https://google.com?q=what%20are%20the%20technical%20details)** or **[ChatGPT](https://chatgpt.com/?prompt=summarize%20chatgpt%20in%20two%20paragraphs)**.
-There are no deadlines or schedules for posts so I work on what comes naturally.Right now, I’m working on three projects:
+There are no deadlines or schedules for posts so I work on what comes naturally. Right now, I’m working on three projects:
 
 - ✍️ A blog about furniture, productivity, and navigating modern tools with a retro soul  
     - Random AI projects
