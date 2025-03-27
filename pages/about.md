@@ -26,8 +26,9 @@ There are no deadlines or schedules for posts so I work on what comes naturally.
     - Google Analytics
 
 ### Sources
-[The Neuron AI](https://www.theneuron.ai/courses/intro-to-chatgpt-training-course)
-[Practical Deep Learning for Coders](https://course.fast.ai/)
+
+- [The Neuron AI](https://www.theneuron.ai/courses/intro-to-chatgpt-training-course)
+- [Practical Deep Learning for Coders](https://course.fast.ai/)
 ---
 
 Thanks for stopping by. More posts to come with the progress.
