@@ -3,8 +3,10 @@
 2. Keeping things simple is worth the extra effort.
 
 # Create the blog
-I created the blog using the b
-ChatGPT generated the [readme](https://chatgpt.com/prompt=Write%20a%20basic%20readme.md%20file%20for%20a%20fake%20blog%20with%20posts%20generated%20by%20Chatgpt) file.
+1. I created the blog using the [quickstart guide](https://docs.github.com/en/pages/quickstart).
+2. ChatGPT generated the [readme.md](https://chatgpt.com/prompt=Write%20a%20basic%20readme.md%20file%20for%20a%20fake%20blog%20with%20posts%20generated%20by%20Chatgpt) file.
+3. Chat GPT generated the [index.md](https://github.com/tsgillam/robot-blog/blob/main/index.md) file.
+4. I added a [_posts](https://github.com/tsgillam/robot-blog/tree/main/_posts) folder.
 
 # [Create a system prompt](https://chatgpt.com/prompt=Write%20a%20system%20prompt%20template%20that%20accepts%20a%20persona%20and%20writes%20a%20blog%20post%20on%20a%20topic)
 The initial plan was to use a system prompt and a user prompt. I started with the system prompt.
@@ -51,25 +53,34 @@ blog_topic: Top 5 Hidden Coves for Buryin’ Yer Treasure Without the Navy Catch
 ```
 
 # [Create a user prompt](https://chatgpt.com/prompt=Write%20a%20user%20prompt%20that%20would%20auto-generate%20a%20blog%20post%20using%20this%20system%20prompt)
-The user prompt can include a persona. You don't need a separate system prompt.
+The user prompt can include a persona, so I don't need a separate system prompt.
 
 ```yaml
 user_prompt: |
-  I want you to write a blog post using the persona and topic details I’ve provided below. Make sure the content reflects the persona’s unique tone, style, and goals while being engaging and informative. Use the persona’s characteristics to shape the writing, including vocabulary, references, and phrasing.
+I want you to write a blog post using the persona and topic details I’ve provided below.
+Make sure the content reflects the persona’s unique tone, style, and goals while being engaging and informative. Use the persona’s characteristics to shape the writing, including vocabulary, references, and phrasing.
+Keep the blog post simple and short.
 
   **Persona Details:**
-  - Persona Name: {{ persona_name }}
-  - Persona Role: {{ persona_role }}
-  - Persona Interests: {{ persona_interests }}
-  - Persona Tone: {{ persona_tone }}
-  - Persona Goals: {{ persona_goals }}
-  - Persona Audience: {{ persona_audience }}
-  - Persona Style Notes: {{ persona_style_notes }}
+  - Persona Name: {persona_name}
 
   **Blog Topic:**
-  {{ blog_topic }}
+  {blog_topic}
 
   Please write the blog post now, following the system’s instructions.
+```
+
+The ChatGPT personas were too complicated and too much. Here is the final persona file.
+
+```yaml
+ben_bernanke:
+  persona_name: Ben Bernanke
+
+jerome_powell:
+persona_name: Jerome Powell
+
+janet_yellen:
+  persona_name: Janet Yellen
 ```
 
 # [Write the python script](https://chatgpt.com/prompt=Write%20a%20python%20script%20to%20read%20the%20user_prompt.yml%20file%20and%20the%20personas.yml%20file%20and%20create%20the%20user%20prompt%20to%20generate%20a%20blog%20post%20using%20the%20template%20and%20a%20random%20persona) ###
@@ -114,3 +125,16 @@ if __name__ == "__main__":
 ```
 
 # [The robot blog](https://tsgillam.github.io/robot-blog/)
+
+**Why Nvidia’s Stock Is More Than Just Hype**  
+*By Ben Bernanke*
+
+If you're wondering why Nvidia’s name keeps popping up in financial headlines, you're not alone — and you're not wrong to pay attention. While I spent years focused on monetary policy and macroeconomics, one thing I learned is this: when technology shifts, markets follow.
+
+Nvidia’s rise isn’t just about gaming graphics anymore. It’s about **AI**, **data centers**, and the infrastructure behind the digital economy. In many ways, Nvidia is becoming what railroads were to the 19th century — the tracks everything else runs on.
+
+Its stock performance? Impressive, yes — but also reflecting genuine demand for its chips in powering everything from ChatGPT to self-driving cars. Is it priced for perfection? Possibly. But in a world increasingly driven by computation, it's a name worth watching.
+
+Sometimes, markets do get excited. But sometimes, they’re just early to a truth. Nvidia might be both.
+
+— Ben
