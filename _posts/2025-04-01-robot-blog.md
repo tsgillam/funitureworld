@@ -19,6 +19,7 @@ I wanted to get a robot blog up and running with minimal effort. Here’s a behi
 2. ChatGPT generated the [readme.md](https://chatgpt.com/?prompt=Write%20a%20basic%20readme.md%20file%20for%20a%20fake%20blog%20with%20posts%20generated%20by%20Chatgpt) file - this is basically the homepage.
 3. Chat GPT also generated the [index.md](https://github.com/tsgillam/robot-blog/blob/main/index.md) file that lists the posts.
 4. I added a [_posts](https://github.com/tsgillam/robot-blog/tree/main/_posts) folder for the post .md files jekyll uses.
+5. I generated a post and put it in the _posts folder.
 
 # [Create a system prompt](https://chatgpt.com/?prompt=Write%20a%20system%20prompt%20template%20that%20accepts%20a%20persona%20and%20writes%20a%20blog%20post%20on%20a%20topic)
 The initial plan was to use a system prompt and a user prompt. I started with the system prompt.
