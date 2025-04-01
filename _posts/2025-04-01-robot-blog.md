@@ -1,5 +1,116 @@
-### Key Points ###
+# Key Points
+1. Working with ChatGPT is an iterative process.
+2. Keeping things simple is worth the extra effort.
 
-### [System Prompt](https://chatgpt.com/prompt=Write%20a%20system%20prompt%20template%20that%20accepts%20a%20persona%20and%20writes%20a%20blog%20post%20on%20a%20topic) ###
-### [User Prompt](https://chatgpt.com/prompt=Write%20a%20user%20prompt%20that%20would%20auto-generate%20a%20blog%20post%20using%20this%20system%20prompt) ###
-### [Python Script]() ###
+# Create the blog
+I created the blog using the b
+ChatGPT generated the [readme](https://chatgpt.com/prompt=Write%20a%20basic%20readme.md%20file%20for%20a%20fake%20blog%20with%20posts%20generated%20by%20Chatgpt) file.
+
+# [Create a system prompt](https://chatgpt.com/prompt=Write%20a%20system%20prompt%20template%20that%20accepts%20a%20persona%20and%20writes%20a%20blog%20post%20on%20a%20topic)
+The initial plan was to use a system prompt and a user prompt. I started with the system prompt.
+
+```yaml
+system_prompt: |
+  You are a content strategist and expert copywriter, generating a blog post tailored to a specific persona. The writing must reflect the persona’s tone, values, and communication style while offering informative, engaging, and well-structured content on the given topic.
+
+  ---  
+  🎭 Persona Details:
+  - Name: {persona_name}
+  - Role/Profession: {persona_role}
+  - Interests: {persona_interests}
+  - Writing Tone: {persona_tone}
+  - Content Goals: {persona_goals}
+  - Target Audience: {persona_audience}
+  - Additional Style Notes: {persona_style_notes}
+
+  📝 Blog Post Topic:  
+  {blog_topic}
+
+  🎯 Instructions:
+  1. Write a blog post that aligns with the persona’s tone and goals.
+  2. Start with a hook or intro that grabs attention.
+  3. Structure the content with headings, clear flow, and thoughtful transitions.
+  4. Use specific examples, analogies, or data where helpful.
+  5. Conclude with a takeaway or call-to-action relevant to the audience.
+  6. Format for readability (short paragraphs, lists, etc.).
+
+  Only write the blog post — do not explain or summarize your process.
+```
+
+# [Generate personas using the template](https://chatgpt.com/prompt=generate%20personas%20for%20a%20cave%20man%2C%2090%27s%20rapper%2C%20pirate%2C%20and%20robot%20using%20the%20yaml%20template%20suggeste)
+
+```yaml
+persona_name: Captain Redbeard Blackboot
+persona_role: Swashbuckling Buccaneer and Treasure Hoarder
+persona_interests: Sailing, gold doubloons, parrots, rum, mutiny
+persona_tone: Boisterous, nautical, with classic pirate lingo
+persona_goals: Recruit new deckhands, share tales of the sea, boast about plunder
+persona_audience: Landlubbers, fellow pirates, nautical bloggers
+persona_style_notes: Start with “Ahoy!”, toss in “Arrr”, “ye”, and “me hearties” liberally
+blog_topic: Top 5 Hidden Coves for Buryin’ Yer Treasure Without the Navy Catchin’ Wind
+```
+
+# [Create a user prompt](https://chatgpt.com/prompt=Write%20a%20user%20prompt%20that%20would%20auto-generate%20a%20blog%20post%20using%20this%20system%20prompt)
+The user prompt can include a persona. You don't need a separate system prompt.
+
+```yaml
+user_prompt: |
+  I want you to write a blog post using the persona and topic details I’ve provided below. Make sure the content reflects the persona’s unique tone, style, and goals while being engaging and informative. Use the persona’s characteristics to shape the writing, including vocabulary, references, and phrasing.
+
+  **Persona Details:**
+  - Persona Name: {{ persona_name }}
+  - Persona Role: {{ persona_role }}
+  - Persona Interests: {{ persona_interests }}
+  - Persona Tone: {{ persona_tone }}
+  - Persona Goals: {{ persona_goals }}
+  - Persona Audience: {{ persona_audience }}
+  - Persona Style Notes: {{ persona_style_notes }}
+
+  **Blog Topic:**
+  {{ blog_topic }}
+
+  Please write the blog post now, following the system’s instructions.
+```
+
+# [Write the python script](https://chatgpt.com/prompt=Write%20a%20python%20script%20to%20read%20the%20user_prompt.yml%20file%20and%20the%20personas.yml%20file%20and%20create%20the%20user%20prompt%20to%20generate%20a%20blog%20post%20using%20the%20template%20and%20a%20random%20persona) ###
+
+```python
+import yaml
+import random
+from jinja2 import Template
+
+# Load the user prompt template
+def load_template(path='user_prompt.yml'):
+    with open(path, 'r') as f:
+        data = yaml.safe_load(f)
+    return data['user_prompt']
+
+# Load personas from YAML file
+def load_personas(path='personas.yml'):
+    with open(path, 'r') as f:
+        return yaml.safe_load(f)
+
+# Fill the prompt template with persona data
+def generate_prompt(template_str, persona):
+    template = Template(template_str)
+    return template.render(**persona)
+
+# Main function
+def main():
+    template_str = load_template()
+    personas = load_personas()
+
+    # Choose a random persona
+    persona = random.choice(personas)
+
+    # Generate the user prompt
+    prompt = generate_prompt(template_str, persona)
+
+    print("🎯 Generated User Prompt:\n")
+    print(prompt)
+
+if __name__ == "__main__":
+    main()
+```
+
+# [The robot blog](https://tsgillam.github.io/robot-blog/)
