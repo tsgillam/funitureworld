@@ -5,7 +5,7 @@ date: 2025-04-01
 author: "Tom Gillam"
 categories: [blog, chatgpt, prompt engineering, prompt flow]
 tags: [chatgpt, prompt engineering, blog]
-excerpt: "I quickly build"
+excerpt: "I quickly build a blog that uses a python file to generate blog posts from ChatGPT."
 image: 
   path: assets/images/funiture_robot_blog.jpg
   caption: "Building a simple AI generated blog."
