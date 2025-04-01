@@ -83,9 +83,9 @@ The user prompt can include a persona, so I don't need a separate system prompt.
 
 ```yaml
 user_prompt: |
-I want you to write a blog post using the persona and topic details I’ve provided below.
-Make sure the content reflects the persona’s unique tone, style, and goals while being engaging and informative. Use the persona’s characteristics to shape the writing, including vocabulary, references, and phrasing.
-Keep the blog post simple and short.
+  I want you to write a blog post using the persona and topic details I’ve provided below.
+  Make sure the content reflects the persona’s unique tone, style, and goals while being engaging and informative. Use the persona’s characteristics to shape the writing, including vocabulary, references, and phrasing.
+  Keep the blog post simple and short.
 
   **Persona Details:**
   - Persona Name: {persona_name}
