@@ -1,5 +1,5 @@
 # Key Points
-I wanted to get a blog up and running with minimal effort. Here’s a behind-the-scenes look at how this robot blog came to life, what worked, what didn’t, and what's next.
+I wanted to get a robot blog up and running with minimal effort. Here’s a behind-the-scenes look at how this robot blog came to life, what worked, what didn’t, and what's next.
 
 1. Keeping things simple is worth the extra effort.
 2. ChatGPT tends to over complicate.
