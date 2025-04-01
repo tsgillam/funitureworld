@@ -33,11 +33,6 @@ I built this site using the So Simple Jekyll Theme, guided by ChatGPT, and hoste
 
 ---
 
-### **What is GPT?**
-GPT (Generative Pre-trained Transformer) is an AI model designed to generate human-like text, assist with problem-solving, and provide creative or technical guidance.
-
----
-
 ### **The Process**
 
 Here’s how I built my blog site:
