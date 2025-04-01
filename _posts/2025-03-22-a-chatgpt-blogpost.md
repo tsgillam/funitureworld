@@ -8,10 +8,10 @@ excerpt: How I used ChatGPT to launch a Jekyll blog with GitHub Pages and the So
 author: Tom Gillam
 image: assets/images/2025-03-22-hero.jpg
 ---
-Perplexity wrote this blog post (to avoid conflicts of interest when criticizing ChatGPT). I edited this blog post to look human.
+Perplexity actually wrote this blog post (to avoid conflicts of interest when criticizing ChatGPT). I edited this blog post to look human.
 
 ---
-## **Key Takeaways**
+## Key Takeaways
 These are the big takeaways from my perspective when writing this post. My takeaways are subject to change.
 
 1. **ChatGPT Excels at Granular Tasks**  
@@ -33,7 +33,7 @@ I built this site using the So Simple Jekyll Theme, guided by ChatGPT, and hoste
 
 ---
 
-### **The Process**
+### The Process
 
 Here’s how I built my blog site:
 
@@ -55,14 +55,14 @@ Here’s how I built my blog site:
 
 ---
 
-### **Challenges with ChatGPT**
+### Challenges with ChatGPT
 
 - **Contextual Gaps**: Without full visibility into my project files, ChatGPT sometimes made incorrect assumptions.
 - **Overly Detailed Solutions**: At times, its responses were too intricate for simple problems, leading to unnecessary complications.
 
 ---
 
-### **Recommendations for Working with GPT Models**
+### Recommendations for Working with ChatGPT
 
 1. **Start Broad, Then Go Deep**: Begin with high-level questions before diving into specifics.
 2. **Provide Context**: Share relevant details about your project to improve response accuracy.
@@ -72,7 +72,7 @@ Here’s how I built my blog site:
 
 ---
 
-### **Conclusion**
+### Conclusion
 
 Building this blog showcased the strengths and limitations of AI tools like ChatGPT. The trick was leveraging ChatGPT's granular expertise while maintaining oversight of the bigger picture because ChatGPT doesn't replace your skills.
 
