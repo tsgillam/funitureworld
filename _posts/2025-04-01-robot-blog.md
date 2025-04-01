@@ -15,7 +15,7 @@ I wanted to get a robot blog up and running with minimal effort. Here’s a behi
 2. ChatGPT tends to over complicate.
 
 # Create the blog
-1. I created the blog using the [quickstart guide](https://docs.github.com/en/pages/quickstart).
+1. I created the blog using this [quickstart guide](https://docs.github.com/en/pages/quickstart).
 2. ChatGPT generated the [readme.md](https://chatgpt.com/prompt=Write%20a%20basic%20readme.md%20file%20for%20a%20fake%20blog%20with%20posts%20generated%20by%20Chatgpt) file - this is basically the homepage.
 3. Chat GPT also generated the [index.md](https://github.com/tsgillam/robot-blog/blob/main/index.md) file that lists the posts.
 4. I added a [_posts](https://github.com/tsgillam/robot-blog/tree/main/_posts) folder for the post .md files jekyll uses.
