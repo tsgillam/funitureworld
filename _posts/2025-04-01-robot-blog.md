@@ -55,6 +55,19 @@ blog_topic: Top 5 Hidden Coves for Buryin’ Yer Treasure Without the Navy Catch
 ```
 
 # [Create a user prompt](https://chatgpt.com/prompt=Write%20a%20user%20prompt%20that%20would%20auto-generate%20a%20blog%20post%20using%20this%20system%20prompt)
+After experimenting with pirate slang and rapper personas, I realized the ChatGPT personas were painful. Here is the final persona file.
+
+```yaml
+ben_bernanke:
+  persona_name: Ben Bernanke
+
+jerome_powell:
+  persona_name: Jerome Powell
+
+janet_yellen:
+  persona_name: Janet Yellen
+```
+
 The user prompt can include a persona, so I don't need a separate system prompt.
 
 ```yaml
@@ -70,19 +83,6 @@ Keep the blog post simple and short.
   {blog_topic}
 
   Please write the blog post now, following the system’s instructions.
-```
-
-After experimenting with pirate slang and rapper personas, I realized the ChatGPT personas were painful. Here is the final persona file.
-
-```yaml
-ben_bernanke:
-  persona_name: Ben Bernanke
-
-jerome_powell:
-  persona_name: Jerome Powell
-
-janet_yellen:
-  persona_name: Janet Yellen
 ```
 
 # [Write the python script](https://chatgpt.com/prompt=Write%20a%20python%20script%20to%20read%20the%20user_prompt.yml%20file%20and%20the%20personas.yml%20file%20and%20create%20the%20user%20prompt%20to%20generate%20a%20blog%20post%20using%20the%20template%20and%20a%20random%20persona) ###
