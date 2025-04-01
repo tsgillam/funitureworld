@@ -1,6 +1,6 @@
 # Key Points
-1. Working with ChatGPT is an iterative process.
-2. Keeping things simple is worth the extra effort.
+1. Keeping things simple is worth the extra effort.
+2. ChatGPT over complicates.
 
 # Create the blog
 1. I created the blog using the [quickstart guide](https://docs.github.com/en/pages/quickstart).
@@ -77,7 +77,7 @@ ben_bernanke:
   persona_name: Ben Bernanke
 
 jerome_powell:
-persona_name: Jerome Powell
+  persona_name: Jerome Powell
 
 janet_yellen:
   persona_name: Janet Yellen
@@ -135,6 +135,9 @@ Nvidia’s rise isn’t just about gaming graphics anymore. It’s about **AI**,
 
 Its stock performance? Impressive, yes — but also reflecting genuine demand for its chips in powering everything from ChatGPT to self-driving cars. Is it priced for perfection? Possibly. But in a world increasingly driven by computation, it's a name worth watching.
 
-Sometimes, markets do get excited. But sometimes, they’re just early to a truth. Nvidia might be both.
+Sometimes, markets do get excited. But sometimes, they’re just early to the truth. Nvidia might be both.
 
 — Ben
+
+# Next Steps
+1. Use ChatGPT to automate blog post editing.
