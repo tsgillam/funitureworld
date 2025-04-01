@@ -1,12 +1,14 @@
 # Key Points
+I wanted to get a blog up and running with minimal effort. Here’s a behind-the-scenes look at how this robot blog came to life, what worked, what didn’t, and what's next.
+
 1. Keeping things simple is worth the extra effort.
-2. ChatGPT over complicates.
+2. ChatGPT tends to over complicate.
 
 # Create the blog
 1. I created the blog using the [quickstart guide](https://docs.github.com/en/pages/quickstart).
-2. ChatGPT generated the [readme.md](https://chatgpt.com/prompt=Write%20a%20basic%20readme.md%20file%20for%20a%20fake%20blog%20with%20posts%20generated%20by%20Chatgpt) file.
-3. Chat GPT generated the [index.md](https://github.com/tsgillam/robot-blog/blob/main/index.md) file.
-4. I added a [_posts](https://github.com/tsgillam/robot-blog/tree/main/_posts) folder.
+2. ChatGPT generated the [readme.md](https://chatgpt.com/prompt=Write%20a%20basic%20readme.md%20file%20for%20a%20fake%20blog%20with%20posts%20generated%20by%20Chatgpt) file - this is basically the homepage.
+3. Chat GPT also generated the [index.md](https://github.com/tsgillam/robot-blog/blob/main/index.md) file that lists the posts.
+4. I added a [_posts](https://github.com/tsgillam/robot-blog/tree/main/_posts) folder for the post .md files jekyll uses.
 
 # [Create a system prompt](https://chatgpt.com/prompt=Write%20a%20system%20prompt%20template%20that%20accepts%20a%20persona%20and%20writes%20a%20blog%20post%20on%20a%20topic)
 The initial plan was to use a system prompt and a user prompt. I started with the system prompt.
@@ -70,7 +72,7 @@ Keep the blog post simple and short.
   Please write the blog post now, following the system’s instructions.
 ```
 
-The ChatGPT personas were too complicated and too much. Here is the final persona file.
+After experimenting with pirate slang and rapper personas, I realized the ChatGPT personas were painful. Here is the final persona file.
 
 ```yaml
 ben_bernanke:
@@ -139,5 +141,5 @@ Sometimes, markets do get excited. But sometimes, they’re just early to the tr
 
 — Ben
 
-# Next Steps
+# What's next
 1. Use ChatGPT to automate blog post editing.
