@@ -8,7 +8,7 @@ excerpt: How I used ChatGPT to launch a Jekyll blog with GitHub Pages and the So
 author: Tom Gillam
 image: assets/images/2025-03-22-hero.jpg
 ---
-Perplexity wrote this blog post (to avoid conflicts of interest when criticizing ChatGPT). I edited this blog post.
+Perplexity wrote this blog post (to avoid conflicts of interest when criticizing ChatGPT). I edited this blog post to look human.
 
 ---
 ## **Key Takeaways**
@@ -24,17 +24,17 @@ These are the big takeaways from my perspective when writing this post. My takea
    Assigning ChatGPT a role (e.g., “You are my coding assistant”) helped it tailor responses more effectively. Additionally, providing context through conversation improved its suggestions.
 
 4. **AI Has Limits**  
-   While ChatGPT was immensely helpful, its lack of full project context occasionally led to overly complex or incomplete solutions. Combining its advice with careful testing and documentation review was essential.
+   ChatGPT is beneficial, the lack of full project context occasionally led to overly complex solutions. Combining its advice with trial and error (testing) worked great.
 
 
 ### Building a Blog Site with GitHub Pages Using the So Simple Jekyll Theme
 
-I built this site using the So Simple Jekyll Theme, guided by ChatGPT, and hosted on GitHub pages. I have never built a Jekyll site before and I thought it would be easier with ChatGPT.
+I built this site using the So Simple Jekyll Theme, guided by ChatGPT, and hosted it on GitHub pages. I had never built a Jekyll site before, and I thought it would be easier with ChatGPT.
 
 ---
 
 ### **What is GPT?**
-GPT (Generative Pre-trained Transformer) is an advanced AI model designed to generate human-like text, assist with problem-solving, and provide creative or technical guidance.
+GPT (Generative Pre-trained Transformer) is an AI model designed to generate human-like text, assist with problem-solving, and provide creative or technical guidance.
 
 ---
 
