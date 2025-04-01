@@ -1,3 +1,16 @@
+---
+layout: post
+title: "Robot Blog"
+date: 2025-04-01
+author: "Tom Gillam"
+categories: [blog, chatgpt, prompt engineering, prompt flow]
+tags: [chatgpt, prompt engineering, blog]
+excerpt: "I quickly build"
+image: 
+  path: assets/images/funiture_robot_blog.jpg
+  caption: "Building a simple AI generated blog."
+---
+
 # Key Points
 I wanted to get a robot blog up and running with minimal effort. Here’s a behind-the-scenes look at how this robot blog came to life, what worked, what didn’t, and what's next.
 
