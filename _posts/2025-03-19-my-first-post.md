@@ -26,8 +26,9 @@ Here’s the breakdown:
 1. **Trained on tons of text**: It read all of the internet up to 2021.
 
 2. **Predicts the next word**: At its core, it just guesses the next word based on the words before it. Like:
-   - You type: “The cat sat on the”
-   - It guesses: “mat”
+   - You type: “I'd like to order a Big”
+   - It might guess: “Mac”
+   - If you tell it you are at McDonald's, it will guess: "Mac"
 
 3. **Uses patterns**: It doesn’t *know* facts or meaning like a person. It’s learned patterns in language—what kinds of words usually go together.
 
