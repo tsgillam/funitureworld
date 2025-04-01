@@ -5,7 +5,7 @@ date: 2025-04-01
 author: "Tom Gillam"
 categories: [blog, chatgpt, prompt engineering, prompt flow]
 tags: [chatgpt, prompt engineering, blog]
-excerpt: "I quickly build a blog that uses a python file to generate blog posts from ChatGPT."
+excerpt: "I quickly built a blog that uses python to generate blog posts from ChatGPT."
 ---
 
 # Key Points
