@@ -16,11 +16,11 @@ I wanted to get a robot blog up and running with minimal effort. Here’s a behi
 
 # Create the blog
 1. I created the blog using this [quickstart guide](https://docs.github.com/en/pages/quickstart).
-2. ChatGPT generated the [readme.md](https://chatgpt.com/prompt=Write%20a%20basic%20readme.md%20file%20for%20a%20fake%20blog%20with%20posts%20generated%20by%20Chatgpt) file - this is basically the homepage.
+2. ChatGPT generated the [readme.md](https://chatgpt.com/?prompt=Write%20a%20basic%20readme.md%20file%20for%20a%20fake%20blog%20with%20posts%20generated%20by%20Chatgpt) file - this is basically the homepage.
 3. Chat GPT also generated the [index.md](https://github.com/tsgillam/robot-blog/blob/main/index.md) file that lists the posts.
 4. I added a [_posts](https://github.com/tsgillam/robot-blog/tree/main/_posts) folder for the post .md files jekyll uses.
 
-# [Create a system prompt](https://chatgpt.com/prompt=Write%20a%20system%20prompt%20template%20that%20accepts%20a%20persona%20and%20writes%20a%20blog%20post%20on%20a%20topic)
+# [Create a system prompt](https://chatgpt.com/?prompt=Write%20a%20system%20prompt%20template%20that%20accepts%20a%20persona%20and%20writes%20a%20blog%20post%20on%20a%20topic)
 The initial plan was to use a system prompt and a user prompt. I started with the system prompt.
 
 ```yaml
@@ -95,7 +95,7 @@ Keep the blog post simple and short.
   Please write the blog post now, following the system’s instructions.
 ```
 
-# [Write the python script](https://chatgpt.com/prompt=Write%20a%20python%20script%20to%20read%20the%20user_prompt.yml%20file%20and%20the%20personas.yml%20file%20and%20create%20the%20user%20prompt%20to%20generate%20a%20blog%20post%20using%20the%20template%20and%20a%20random%20persona) ###
+# [Write the python script](https://chatgpt.com/?prompt=Write%20a%20python%20script%20to%20read%20the%20user_prompt.yml%20file%20and%20the%20personas.yml%20file%20and%20create%20the%20user%20prompt%20to%20generate%20a%20blog%20post%20using%20the%20template%20and%20a%20random%20persona) ###
 
 ```python
 import yaml
