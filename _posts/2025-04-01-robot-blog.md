@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Robot Blog"
+title: "Generating a Robot Blog"
 date: 2025-04-01
 author: "Tom Gillam"
 categories: [blog, chatgpt, prompt engineering, prompt flow]
