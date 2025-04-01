@@ -44,7 +44,7 @@ Here’s the breakdown:
 My first encounter with AI was when OpenAI tools became publicly available. I used AI to write product copy, a task requiring creativity, precision, and an understanding of the audience. It seemed easier to use ChatGPT than to teach a copywriter. The copywriter can review the output from ChatGPT. Because of the limited things you can say about one product, I was confident ChatGPT could write a great first draft.
 
 #### **2. Improving Communication with Grammarly**  
-The next step was adopting Grammarly, an AI-powered writing assistant. While it may seem like a simple tool, Grammarly revolutionized how I write emails and other professional communications. Its ability to catch errors, suggest better phrasing, and maintain tone consistency made me a more effective communicator.
+The next step was adopting Grammarly, an AI-powered writing assistant. While it may seem like a simple tool, Grammarly changed how I write emails and other professional communications. Its ability to catch errors, suggest better phrasing, and maintain tone consistency made me a more effective communicator.
 
 #### **3. Building a Flutter App with ChatGPT**  
 Recently, I have been developing a Flutter app despite having no prior experience in Flutter. ChatGPT has become my colleague throughout that process. It provides step-by-step instructions, explains technical concepts, and helps me debug issues.
@@ -54,7 +54,7 @@ Documenting my projects is valuable—not just for sharing knowledge but also fo
 
 ---
 
-### **Lessons Learned About Using AI**
+### **[Lessons Learned About Using AI](https://chatgpt.com/?prompt=write%20some%20lessons%20learned%20about%20using%20AI)**
 
 1. **Start small**  
 2. **Experiment**  
