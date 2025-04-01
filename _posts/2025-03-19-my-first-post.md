@@ -17,6 +17,26 @@ Artificial intelligence (AI) has become invaluable in my personal and profession
 
 ---
 
+### **What is a GPT**
+
+A GPT is like [madlibs](https://madlibs.com/) but tries to fill the blanks with serious words like a super-smart autocomplete. You start typing a sentence, and it tries to guess the next word, the next, and so on.
+
+Here’s the breakdown:
+
+1. **Trained on tons of text**: It read all of the internet up to 2021.
+
+2. **Predicts the next word**: At its core, it just guesses the next word based on the words before it. Like:
+   - You type: “The cat sat on the”
+   - It guesses: “mat”
+
+3. **Uses patterns**: It doesn’t *know* facts or meaning like a person. It’s learned patterns in language—what kinds of words usually go together.
+
+4. **Neural network with layers**: Inside, it’s a big stack of math layers that tweak and adjust how it makes those guesses based on context.
+
+5. **Attention**: It pays “attention” to all the words you typed before to understand what matters most right now.
+
+---
+
 ### **My AI History**
 
 #### **1. Writing Product Copy with OpenAI**  
