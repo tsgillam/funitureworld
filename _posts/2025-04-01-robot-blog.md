@@ -142,4 +142,5 @@ Sometimes, markets do get excited. But sometimes, they’re just early to the tr
 — Ben
 
 # What's next
-1. Use ChatGPT to automate blog post editing.
+1. Debugging the jekyll site.
+2. Use ChatGPT to automate blog post editing.
