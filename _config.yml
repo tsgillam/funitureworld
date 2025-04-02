@@ -1,7 +1,7 @@
 title: "Funiture World"
 description: "A blog about becoming the productive worker of tomorrow."
-url: "https://mrsuntanlotionbottle.github.io/funitureworld"
-baseurl: "/funitureworld"  # Remove this if using a user site
+url: "https://funitureworld.com"
+baseurl: ""  # Remove this if using a user site
 author:
   name: "Tom Gillam"
   email: "tom.gillam@yahoo.com"
