@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: About Funiture
 permalink: /about/
 description: Learn more about the creator behind Funiture World – a blog about becoming the productive worker of tomorrow.
 ---
