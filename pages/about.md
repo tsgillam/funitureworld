@@ -29,9 +29,9 @@ There are no deadlines or schedules, so I work on what comes naturally. Right no
     - AI Agents
 
 ### AI Knowledge Sources
-
 - [The Neuron AI](https://www.theneuron.ai/courses/intro-to-chatgpt-training-course)
 - [Practical Deep Learning for Coders](https://course.fast.ai/)
+- [Blazing Zebra](https://www.patreon.com/BlazingZebra) (random gems from an interesting person)
 
 ### AI Tools
 - [ChatGPT](https://chatgpt.com/)
