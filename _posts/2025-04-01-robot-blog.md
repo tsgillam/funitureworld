@@ -9,10 +9,11 @@ excerpt: "I quickly built a blog that uses python to generate blog posts from Ch
 ---
 
 # Key Points
-I wanted to get a robot blog up and running with minimal effort. Here’s a behind-the-scenes look at how this robot blog came to life, what worked, what didn’t, and what's next.
-
 1. Keeping things simple is worth the extra effort.
 2. ChatGPT tends to over complicate.
+
+# Introduction
+I wanted to get a robot blog up and running with minimal effort. Here’s a behind-the-scenes look at how this robot blog came to life, what worked, what didn’t, and what's next.
 
 # Create the blog
 1. I created the blog using this [quickstart guide](https://docs.github.com/en/pages/quickstart).
