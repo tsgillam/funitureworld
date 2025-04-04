@@ -94,5 +94,7 @@ Parameter sweeping is a technique used in AI development to find the optimal set
 
 Visual analysis in prompt engineering involves the use of graphical representations to understand and improve the interactions between humans and AI. This can include plotting response accuracy, sentiment analysis, or other relevant metrics over different prompt types or configurations. By visually analyzing these aspects, developers can quickly identify patterns and anomalies, making it easier to optimize prompt formulations and AI settings to enhance user engagement and satisfaction.
 
-
+# What's Next
+- Build a prompt chain in Python
+- Research LangChain and LangGraph for larger applications and building agents
 
